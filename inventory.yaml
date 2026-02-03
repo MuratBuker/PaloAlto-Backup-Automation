@@ -1,16 +1,16 @@
 ---
 paloalto:
   hosts:
-    paloalto-test-01:
-      datacenter: DC01
-      ansible_host: 10.10.10.1
+    paloalto-equinix-01:
+      datacenter: Equinix
+      ansible_host: 10.174.110.1
       ansible_port: 443
-      panos_username: "USERNAME"
-      panos_password: "PASSWORD"
+      panos_username: "P9988.marvin.android"
+      panos_password: "2nKUh5cm1Xfp!"
 
-    paloalto-test-02:
-      datacenter: DC02
-      ansible_host: 10.10.20.1
+    paloalto-kkb-01:
+      datacenter: KKB
+      ansible_host: 10.174.94.1
       ansible_port: 443
-      panos_username: "USERNAME"
-      panos_password: "PASSWORD"
+      panos_username: "P9988.marvin.android"
+      panos_password: "2nKUh5cm1Xfp!"
